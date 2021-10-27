@@ -29,3 +29,16 @@ Feature: To verify all different flows of a standard user
 
       | UserName      | Password     | filter | FirstName | LastName | Zipcode | No of items |
       | standard_user | secret_sauce | hilo   | Rohit     | Yadav    | HX1 1QA | 2           |
+
+
+#    Other scenarios :
+#
+#    1. To verify standard user with incorrect credentials is not allowed to login.
+#    2. To verify the login behavior all the different types of user locked_out_user,problem_user,performance_glitch_user.
+#    3. To verify the all the 4 types of sorting is working correctly.
+#    4. To verify user is able to add and remove the items from cart.
+#    5. To verify user is able to purchase and edit any available quantity of the items.
+#    6. To verify user is able to remove the items from cart.
+#    7. To verify Continue to Shopping takes user back to product page.
+#    8. To verify only correct Postcode details can be allowed to user.
+    
